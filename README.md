@@ -2,3 +2,7 @@
 ![Test](https://github.com/nealfennimore/sos-app/workflows/Test/badge.svg)
 
 # SOS App
+
+## Debugging
+
+Follow the guide here: https://docs.expo.io/versions/latest/workflow/debugging/#startup
