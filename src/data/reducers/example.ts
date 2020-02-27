@@ -1,4 +1,4 @@
-import { TEST, Message, TestAction } from 'data/actions/test';
+import { TEST, Message, TestAction } from 'data/actions/example';
 
 const initialState: Message = {
     message: null,

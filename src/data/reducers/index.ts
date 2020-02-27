@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import test from './test';
+import example from './example';
 
-const rootReducer = combineReducers( { test } );
+const rootReducer = combineReducers( { example } );
 
 export type RootState = ReturnType<typeof rootReducer>
 

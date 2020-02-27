@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from 'data/reducers';
 
 export default function TextElement(): JSX.Element {
-    const text: string = useSelector( ( state: RootState ) => state.test.message );
+    const text: string = useSelector( ( state: RootState ) => state.example.message );
     return (
         <Text>{text}</Text>
     );
