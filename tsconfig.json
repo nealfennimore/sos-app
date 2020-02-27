@@ -9,11 +9,11 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "app/*": ["./src/*"]
+      "*": ["./src/*"]
     },
   },
   "include": [
     "App.tsx",
-    "src/**/*"
+    "src/**/*",
   ]
 }
