@@ -12,16 +12,14 @@
         "lcov",
         "text-summary"
     ],
-    "presets": [
-        "jest-expo"
-    ],
+    "preset": "jest-expo-enzyme",
     "roots": [
         "<rootDir>/src"
     ],
     "setupFiles": [
         "<rootDir>/jest.setup.js"
     ],
-    "testRegex": ".*(test|spec)\\.jsx?$",
+    "testRegex": ".*(test|spec)\\.(j|t)sx?$",
     "testPathIgnorePatterns": [
         "/node_modules/"
     ]
