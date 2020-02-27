@@ -3,7 +3,8 @@
     "extends": [
         "plugin:@typescript-eslint/recommended",
         "nfen/react",
-        "nfen/plugins/import"
+        "nfen/plugins/import",
+        "plugin:import/typescript"
     ],
     "parser": "@typescript-eslint/parser",
     "env": {
