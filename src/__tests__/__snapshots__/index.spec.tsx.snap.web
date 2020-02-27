@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should have correct content 1`] = `"Open up App.tsx to start working on your app!"`;
+exports[`App should have correct content 1`] = `"Open up App.tsx to start working on your app!This is connected to redux"`;
 
 exports[`App should match snapshot 1`] = `
 <div
@@ -34,6 +34,12 @@ exports[`App should match snapshot 1`] = `
     dir="auto"
   >
     Open up App.tsx to start working on your app!
+  </div>
+  <div
+    className="css-text-901oao"
+    dir="auto"
+  >
+    This is connected to redux
   </div>
 </div>
 `;
