@@ -1,0 +1,16 @@
+{
+    "root": true,
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "nfen/react",
+        "nfen/plugins/import"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "jest": true,
+        "es6": true
+    },
+    "globals": {
+        "expect": false
+    }
+}
